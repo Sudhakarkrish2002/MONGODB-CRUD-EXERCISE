@@ -2,10 +2,14 @@
 
 CREATE OPERATION:
 
-1)test> use library                                  //use library – To switch to (or create) the database named library.
+1)test> use library                                //use library – To switch to (or create) the database named library.
+
+
 switched to db library
 
 2)library> db.library.books              	          //db.library.books – To check or reference the books collection inside the library database.
+
+
 library.library.books
 
 3)library> db.books.insertOne({Title:"Wings of Fire",Author:"Dr.A.P.J Abdul Kalam",Published_year:1999})          // db.books.insertOne – To add the book "Wings of Fire" with its details into the books 																													      collection.
